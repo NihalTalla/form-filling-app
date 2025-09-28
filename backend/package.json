@@ -1,7 +1,13 @@
 {
-  "name": "backend",
+  "name": "form-filling-backend",
   "version": "1.0.0",
+  "description": "Backend API for form-filling application",
   "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
@@ -9,10 +15,10 @@
     "reset-db": "node reset-db.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["express", "nodejs", "mysql", "api", "backend"],
+  "author": "NihalTalla",
+  "license": "MIT",
+  "description": "Backend API for form-filling application",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
